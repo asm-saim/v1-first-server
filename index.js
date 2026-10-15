@@ -13,6 +13,12 @@ app.get("/about", (req, res) => {
 app.get("/dashboard", (req, res) => {
   res.send("Dashboard section");
 });
+app.get("/home", (req, res) => {
+  res.send("Home page cretated");
+});
+app.get("/career", (req, res) => {
+  res.send("Career page created");
+});
 
 app.listen(port, () => {
   console.log(`Server is staring on port ${port}`);
